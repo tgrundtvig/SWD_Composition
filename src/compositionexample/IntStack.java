@@ -10,7 +10,7 @@ package compositionexample;
  *
  * @author tog
  */
-public class IntStack
+public class IntStack implements IntegerStack
 {
     private int[] array;
     private int top;
