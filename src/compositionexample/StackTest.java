@@ -14,7 +14,7 @@ public class StackTest
 {
     public static void main(String[] args)
     {
-        IntStack s = new IntStack(100);
+        IntegerStack s = new DStackComp(100);
         
         for(int i = 1; i <= 10; ++i)
         {
